@@ -1,5 +1,5 @@
-The goal here is to build your first simple model for the relationship between words. 
-This is the first step in building a predictive text mining application. You will explore simple models and discover more complicated modeling techniques.
+The goal here is to build a simple model for the relationship between words. 
+This is the first step in building a predictive text mining application. We will explore simple models and discover more complicated modeling techniques.
 
 Tasks to accomplish
 	1	Build basic n-gram model - using the exploratory analysis, build a basic n-gram model for predicting the next word based on the previous 1, 2, or 3 words.

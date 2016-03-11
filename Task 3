@@ -1,0 +1,22 @@
+The goal here is to build your first simple model for the relationship between words. 
+This is the first step in building a predictive text mining application. You will explore simple models and discover more complicated modeling techniques.
+
+Tasks to accomplish
+	1	Build basic n-gram model - using the exploratory analysis, build a basic n-gram model for predicting the next word based on the previous 1, 2, or 3 words.
+	2	Build a model to handle unseen n-grams - to handle cases where a particular n-gram isn't observed.
+
+Points to consider
+	1	How to efficiently store an n-gram model (Markov Chains)?
+	2	Learn about word frequencies to make simple and effficient text prediction model.
+	3	Parameters needed ( n in the n-gram model)
+	4	Think of simple way to smooth possibilities.
+	5	Evaluate model
+	6	Use of backoff models to estimate the probability of unobserved n-grams
+
+Developing prediction model
+two key aspects are:  the size and runtime of the algorithm. 
+	1	Size: the amount of memory (physical RAM) required to run the model in R
+	2	Runtime: The amount of time the algorithm takes to make a prediction given the acceptable input
+
+The goal for prediction model is to minimize both the size and runtime of the model in order to provide a reasonable experience to the user. The model would be run in a Shiny app that runs on the shinyapps.io server.
+

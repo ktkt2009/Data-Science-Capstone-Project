@@ -1,0 +1,31 @@
+
+
+In this capstone we will be applying data science in the area of natural language processing. 
+We have to be familiar with Natural Language Processing, Text Mining, and the associated tools in R. 
+
+Resources
+	•	Natural language processing Wikipedia page
+	•	Text mining infrastucture in R
+	•	CRAN Task View: Natural Language Processing
+	•	Coursera course on NLP 
+
+Dataset
+Download the data from the Coursera site:
+	•	Capstone Dataset- final
+
+It was named LOCALE.blogs.txt where LOCALE is the each of the four locales en_US, de_DE, ru_RU and fi_FI. 
+The data is from a corpus called HC Corpora (www.corpora.heliohost.org). 
+The files have been language filtered but may still contain some foreign text.
+These data set would be used to explore the data and model building.
+
+Tasks to accomplish
+	1	Obtaining the data -download the data and load/manipulate it in R
+	2	Familiarizing yourself with NLP and text mining 
+
+Questions to consider
+	1	What do the data look like?
+	2	Where do the data come from?
+	3	Can you think of any other data sources that might help you in this project?
+	4	What are the common steps in natural language processing?
+	5	What are some common issues in the analysis of text data?
+	6	What is the relationship between NLP and the concepts you have learned in the Specialization?

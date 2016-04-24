@@ -1,46 +1,30 @@
 Word Prediction App
 ========================================================
 author: Kyaw Thu
-date: 24-Apr-2016
+date: 24-4-16
 autosize: true
 
 Alogrithm of Word Prediction App
 ========================================================
 
-
-
-
-
 Swiftkey is one of the popular application for easy typing in mobile devices that has a function of predicting word from user's text inputs. 
 The goal of Data Science Capstone Project is to build algorithm for next word prediction like swiftkey. The app can be accessed over the internet with the support of Shinyapps.io. 
 
-
 How the App works
-===============================
-
+========================================================
 This app use Ngrams corpus data and using backoff method to predict the best possible next word. Word prediction algorithm uses 4grams model with frequency count. 
 Hopefully users will improve typing efficiency and accuracy using this application.
+User can enter words in the input box area. 
+Double Click on "Predict next word" button and wait for the prediction.
 
-User Guide
--  URL < https://github.com/ktkt2009/Data-Science-Capstone-Project/App>;
-
--  The left side of the screen layout is input box;
-
--  The right side is the output region. The predicted words will be displayed;
-
--  The about button will be returned with summary of the project;
-
--  enter text input in the side bar of text input; and
-
--  click the 'Predict' button
+![alt text](myimage.png)
 
 Limitation and Further Improvements
 ========================================================
-
 Since words are not independent events, statistcal language models employ conditional probability.
 
 Probability estimates can change suddenly on adding more data when the back off algorithm select a different order of Ngram model on which based on the estimate. 
 
 Links to Resources
 ========================================================
-Github link: https://github.com/ktkt2009/Data-Science-Capstone-Project
+Github link: https://github.com/ktkt2009/Data-Science-Capstone-Project/App
